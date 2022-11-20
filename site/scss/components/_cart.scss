@@ -1,0 +1,14 @@
+#cart {
+  .totalprice {
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+      }
+    }
+  }
+  .pricecontainer {
+    border-left: 2px solid $secondary;
+    padding-left: 15px;
+  }
+}

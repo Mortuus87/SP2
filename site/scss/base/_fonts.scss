@@ -1,0 +1,49 @@
+// Possible but unused alternative for importing:
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+// I instead went for the local @font-face alternative for faster and more reliable load times
+// Roboto - 300, 400, 400i, 600
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto/Roboto-Italic.ttf')  format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto/Roboto-Light.ttf')  format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto/Roboto-Bold.ttf')  format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// Zilla Slab - 400, 600
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('../assets/fonts/Zilla_Slab/ZillaSlab-Regular.ttf')  format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('../assets/fonts/Zilla_Slab/ZillaSlab-Bold.ttf')  format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// path to font is relative to the final destination of the css, not this scss-file.

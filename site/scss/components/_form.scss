@@ -1,0 +1,49 @@
+.form {
+  &.login {
+    max-width: 600px;
+    margin: 0 auto;
+
+    #userError,
+    #passwordError {
+      color: $danger;
+      display: none;
+    }
+
+    label,
+    input {
+      width: 100%;
+      // margin-bottom: 1rem;
+    }
+  }
+
+  &.newProduct {
+    input:not([type*="checkbox"]), textarea {
+      width: 100%;
+    }
+
+    textarea {
+      height: 125px;
+    }
+  }
+
+  &.newProduct {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &.putProduct {
+    max-width: 600px;
+    margin: 0 auto;
+
+    label,
+    input:not([type*="checkbox"]),
+    textarea {
+      width: 100%;
+      // margin-bottom: 1rem;
+    }
+  }
+
+  input[type*="checkbox"]+label {
+    width: auto;
+  }
+}

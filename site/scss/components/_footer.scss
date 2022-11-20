@@ -1,0 +1,47 @@
+.footer {
+  background-image: url('./../assets/graphics/noise.png');
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+
+  background-color: $primary;
+  // min-height: 300px;
+  padding-bottom: 50px;
+  color: white;
+
+  text-align: center;
+
+  box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.9);
+
+  figure {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: block;
+      margin-bottom: 1rem;
+      
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      img {
+        display: inline-flex;
+        height: 1rem;
+        margin-right: .5rem;
+      }
+      
+      &:hover {
+        a {
+          border-bottom: 1px solid white;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.banner {
+  display: flex;
+  justify-content: center;
+
+  .headline {
+    color: $secondary;
+    margin-bottom: 25px;
+  }
+
+  .text-wrapper {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+  }
+
+  .image-wrapper {
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+  
+  .row {
+    flex-direction: row;
+    width: 100%;
+  }
+  &:nth-of-type(2n+1) {
+    .row {
+      flex-direction: row-reverse;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+  }
+}

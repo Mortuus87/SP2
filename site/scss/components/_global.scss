@@ -1,0 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-headings;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: $font-main;
+  font-weight: 400;
+  font-size: 1rem;
+}

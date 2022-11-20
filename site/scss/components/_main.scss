@@ -1,0 +1,25 @@
+.main {
+  background-image: url('./../assets/graphics/noise.png');
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+
+  section {
+    padding: 70px 0 70px;
+    &.shaded {
+      background-color: $light;
+    }
+  }
+
+  .articles {
+    padding: 35px 0;  
+  }
+  
+  .headline {
+    margin: 20px 0 30px;
+    color: $secondary;
+  }
+  
+  .text-field {
+    max-width: 720px;
+  }
+}

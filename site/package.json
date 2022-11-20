@@ -1,0 +1,19 @@
+{
+  "name": "sp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "watch": "sass --watch scss/style.scss css/style.css",
+    "build": "webpack"
+  },
+  "author": "Morten Hallgren",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+.btn {
+  margin-bottom: .5rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  padding: 6px 20px;
+
+  &.btn-primary {
+    background-color: $primary;
+    color: #fff;
+
+    &:hover {
+      background-color: $button-primary-bg-hover !important;
+    }
+  }
+
+  .btn-outline-secondary {
+    color: $text-color-primary;
+  }
+}
+
+
+

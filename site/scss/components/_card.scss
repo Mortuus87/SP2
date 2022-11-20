@@ -1,0 +1,53 @@
+.cards {
+  padding: 0;
+
+  li.product {
+    list-style: none;
+  }
+
+  .card {
+    background-color: rgba(white, 0.8);
+    border-radius: 0;
+    border: none;
+    transition-duration: 300ms;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+
+    color: $text-color-primary;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0px 0px 30px -10px rgba(0,0,0,.5);
+      transform: translateY(-10px);
+      transition-duration: 300ms;
+    }
+
+    .card-header { 
+      padding: 0;
+      border-bottom: none;
+      background-color: unset;
+
+      figure {
+        display: flex;
+        height: 300px;
+  
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .card-body {
+      padding: 5px 20px 10px;
+    }
+
+    &.product {
+      .card-header figure {
+        background-color: white;
+      }
+    }
+  }
+}
